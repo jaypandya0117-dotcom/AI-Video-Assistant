@@ -1,0 +1,286 @@
+[
+{
+"id": "Q01",
+"question": "What was the fundamental approach used by early search systems to retrieve documents?",
+"expected_answer_concepts": [
+"keyword matching",
+"inverted indices",
+"mapping keywords to documents"
+],
+"reference_answer": "Early search systems primarily used keyword-based retrieval. They used inverted indices to map keywords to documents containing those keywords and retrieved documents based on matching terms."
+},
+{
+"id": "Q02",
+"question": "What ranking methods were mentioned for ranking documents in early keyword-based search systems?",
+"expected_answer_concepts": [
+"TF-IDF",
+"BM25"
+],
+"reference_answer": "The video mentions TF-IDF and BM25 as ranking methods used to determine which keyword-matching documents are more relevant."
+},
+{
+"id": "Q03",
+"question": "What is the main limitation of traditional keyword-based search according to the video?",
+"expected_answer_concepts": [
+"does not understand language",
+"does not understand meaning",
+"difficulty handling synonyms",
+"difficulty understanding complex intent"
+],
+"reference_answer": "Traditional keyword search mainly matches words rather than understanding their meaning or the user's intent. This makes it difficult to handle synonyms, different wording, and more complex queries."
+},
+{
+"id": "Q04",
+"question": "Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?",
+"expected_answer_concepts": [
+"exact keyword matching",
+"does not understand semantic meaning",
+"synonyms may not match"
+],
+"reference_answer": "Keyword-based search depends heavily on matching the words in the query with words in documents. If the relevant document uses synonyms or different wording, the system may fail to retrieve it because it does not understand the underlying semantic meaning."
+},
+{
+"id": "Q05",
+"question": "How does semantic search represent text so that systems can retrieve information based on meaning?",
+"expected_answer_concepts": [
+"vectors",
+"embeddings",
+"high-dimensional representations",
+"semantic meaning"
+],
+"reference_answer": "Semantic search represents text as vectors or embeddings in a high-dimensional space. Texts with similar meanings are represented by vectors that are close to each other, allowing retrieval based on semantic similarity."
+},
+{
+"id": "Q06",
+"question": "Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?",
+"expected_answer_concepts": [
+"embeddings",
+"semantic similarity",
+"meaning",
+"intent"
+],
+"reference_answer": "Semantic search uses embeddings that capture the meaning of text. Therefore, a query and document can be considered similar even when they use different words, as long as their meanings or intent are related."
+},
+{
+"id": "Q07",
+"question": "What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?",
+"expected_answer_concepts": [
+"keyword precision",
+"semantic understanding",
+"combine strengths",
+"better retrieval"
+],
+"reference_answer": "Hybrid retrieval combines the strengths of keyword and semantic search. Keyword search provides precise matching of important terms, while semantic search captures meaning and intent, resulting in more effective retrieval."
+},
+{
+"id": "Q08",
+"question": "What limitation of large language models motivated the development of Retrieval Augmented Generation?",
+"expected_answer_concepts": [
+"knowledge limited to training data",
+"knowledge cutoff",
+"lack of current information",
+"lack of private information",
+"external knowledge"
+],
+"reference_answer": "LLMs are limited by the information available in their training data and may not have access to current, private, or specialized information. RAG addresses this by allowing the model to retrieve relevant information from external knowledge sources."
+},
+{
+"id": "Q09",
+"question": "How does a basic RAG system use retrieved information to generate an answer?",
+"expected_answer_concepts": [
+"user query",
+"retrieve relevant documents",
+"external knowledge base",
+"augment prompt",
+"LLM generates answer"
+],
+"reference_answer": "A basic RAG system receives a user query, retrieves relevant documents from an external knowledge base, adds the retrieved information to the context or prompt, and then uses an LLM to generate the final answer."
+},
+{
+"id": "Q10",
+"question": "Why does the video describe RAG as giving an LLM a form of external memory?",
+"expected_answer_concepts": [
+"external knowledge",
+"information outside training data",
+"retrieve information",
+"current or specialized information"
+],
+"reference_answer": "RAG acts like external memory because the LLM can retrieve information from external sources instead of relying only on the knowledge encoded during training. This allows it to use current, private, or specialized information."
+},
+{
+"id": "Q11",
+"question": "What is the basic structure of a traditional RAG pipeline?",
+"expected_answer_concepts": [
+"documents",
+"embeddings",
+"vector database",
+"retrieval",
+"LLM"
+],
+"reference_answer": "In a traditional RAG pipeline, documents are processed into embeddings and stored in a vector database. At query time, relevant documents are retrieved and passed to an LLM, which uses them as context to generate an answer."
+},
+{
+"id": "Q12",
+"question": "What is the main limitation of traditional RAG pipelines?",
+"expected_answer_concepts": [
+"static pipeline",
+"fixed retrieval process",
+"cannot adapt dynamically",
+"retrieval quality"
+],
+"reference_answer": "Traditional RAG pipelines generally follow a fixed sequence of retrieval and generation steps. They have limited ability to dynamically decide what information to retrieve or adapt their retrieval strategy to different questions."
+},
+{
+"id": "Q13",
+"question": "What techniques were introduced to improve traditional RAG retrieval?",
+"expected_answer_concepts": [
+"reranking",
+"query rewriting",
+"query expansion",
+"hybrid retrieval"
+],
+"reference_answer": "The video discusses techniques such as reranking, query rewriting or expansion, and hybrid retrieval as ways to improve the quality and relevance of retrieved information."
+},
+{
+"id": "Q14",
+"question": "What is the role of a reranker in an improved RAG pipeline?",
+"expected_answer_concepts": [
+"reorder retrieved results",
+"rank relevance",
+"improve retrieval quality"
+],
+"reference_answer": "A reranker evaluates the initially retrieved results and reorders them according to their relevance to the query, helping place the most useful documents higher in the retrieved context."
+},
+{
+"id": "Q15",
+"question": "How does agentic RAG differ from a traditional linear RAG pipeline?",
+"expected_answer_concepts": [
+"autonomous decision making",
+"dynamic retrieval",
+"decides whether retrieval is needed",
+"decides where to search",
+"multi-step reasoning"
+],
+"reference_answer": "Agentic RAG allows an AI agent to make decisions during the retrieval process. Instead of following a fixed pipeline, the agent can decide whether retrieval is needed, where to search, what information to retrieve, and whether additional retrieval steps are necessary."
+},
+{
+"id": "Q16",
+"question": "What decisions can an AI agent make during the retrieval process according to the video?",
+"expected_answer_concepts": [
+"whether retrieval is needed",
+"where to search",
+"what information to retrieve",
+"whether more information is needed"
+],
+"reference_answer": "An AI agent can decide whether retrieval is necessary, determine where to search, decide what information or questions to retrieve, and determine whether it has gathered enough information to answer the query."
+},
+{
+"id": "Q17",
+"question": "How can agents improve the reliability of information retrieved from different sources?",
+"expected_answer_concepts": [
+"compare sources",
+"validate information",
+"cross-check",
+"refine queries"
+],
+"reference_answer": "Agents can improve reliability by retrieving information from multiple sources, comparing or cross-checking the results, validating claims, and refining their searches when the available information is insufficient."
+},
+{
+"id": "Q18",
+"question": "What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?",
+"expected_answer_concepts": [
+"multi-step research",
+"cross-document synthesis",
+"API calls",
+"multiple knowledge bases",
+"multimodal data"
+],
+"reference_answer": "Agentic RAG can support more complex workflows such as multi-step research, synthesizing information across documents or knowledge bases, interacting with APIs or tools, and working with different types of data including multimodal information."
+},
+{
+"id": "Q19",
+"question": "Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",
+"expected_answer_concepts": [
+"keyword matching",
+"semantic meaning",
+"embeddings",
+"external knowledge",
+"RAG",
+"autonomous retrieval",
+"agentic reasoning"
+],
+"reference_answer": "Search evolved from keyword matching, which focuses on exact terms, to semantic search, which uses embeddings to retrieve information based on meaning. RAG then combined retrieval with LLM generation to provide external knowledge to language models. Agentic RAG goes further by allowing agents to dynamically decide when, where, and how to retrieve information and perform multi-step reasoning."
+},
+{
+"id": "Q20",
+"question": "According to the video, why is deciding what information to look at important for an AI system?",
+"expected_answer_concepts": [
+"quality of retrieved information",
+"answer quality",
+"relevant information",
+"retrieval decisions"
+],
+"reference_answer": "Deciding what information to retrieve is important because the quality and relevance of the retrieved information directly affect the quality of the final answer. An AI system therefore needs to determine which sources and information are useful."
+},
+{
+"id": "Q21",
+"question": "What are the main advantages of semantic search over traditional keyword matching discussed in the video?",
+"expected_answer_concepts": [
+"semantic meaning",
+"understanding intent",
+"different wording",
+"synonyms",
+"semantic similarity"
+],
+"reference_answer": "Semantic search can retrieve information based on meaning rather than exact word matches. It can better handle different wording, synonyms, and user intent because embeddings capture semantic relationships between pieces of text."
+},
+{
+"id": "Q22",
+"question": "What problems with large language models does RAG address, and how does it address them?",
+"expected_answer_concepts": [
+"limited training knowledge",
+"knowledge cutoff",
+"current information",
+"private information",
+"external retrieval",
+"augmented context"
+],
+"reference_answer": "RAG addresses the limitations of LLMs that arise from relying on their training data, including lack of current, private, or specialized information. It retrieves relevant information from external sources and provides that information to the LLM as additional context."
+},
+{
+"id": "Q23",
+"question": "What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?",
+"expected_answer_concepts": [
+"reranking",
+"query rewriting",
+"query expansion",
+"hybrid retrieval",
+"improved retrieval"
+],
+"reference_answer": "Traditional RAG can be improved using techniques such as reranking retrieved documents, rewriting or expanding queries, and combining keyword and semantic retrieval through hybrid search."
+},
+{
+"id": "Q24",
+"question": "What can an agent do after retrieving information before producing the final answer?",
+"expected_answer_concepts": [
+"evaluate information",
+"compare sources",
+"validate claims",
+"refine search",
+"retrieve additional information"
+],
+"reference_answer": "After retrieving information, an agent can evaluate and compare the information, validate claims, refine its search, retrieve additional information if necessary, and determine when it has enough information to produce an answer."
+},
+{
+"id": "Q25",
+"question": "How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?",
+"expected_answer_concepts": [
+"agent decides when to retrieve",
+"agent chooses retrieval strategy",
+"iterative retrieval",
+"dynamic decision making",
+"retrieval during reasoning"
+],
+"reference_answer": "In agentic RAG, retrieval becomes an active part of the reasoning process because the agent can decide when retrieval is necessary, choose where or how to search, evaluate the retrieved information, and perform additional retrieval steps before reaching a conclusion."
+}
+]

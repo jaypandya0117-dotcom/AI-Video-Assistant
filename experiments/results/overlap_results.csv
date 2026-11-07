@@ -1,0 +1,6 @@
+experiment_type,chunk_size,chunk_overlap,num_chunks,avg_chunk_length,chunking_time_s,embedding_indexing_time_s,avg_retrieval_time_s,hit_at_4,mrr
+overlap,750,0,9,706.67,0.0018,6.0352,0.021372,0.6,0.5
+overlap,750,50,10,677.8,0.0015,5.9657,0.017191,0.6,0.4667
+overlap,750,100,10,721.8,0.0016,5.9239,0.013135,0.56,0.5067
+overlap,750,150,11,710.36,0.0013,5.9763,0.01395,0.56,0.52
+overlap,750,200,12,710.08,0.0014,6.0236,0.018118,0.6,0.47

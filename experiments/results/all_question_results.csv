@@ -1,0 +1,451 @@
+question_id,question,hit_at_k,mrr,retrieval_time_s,experiment_type,chunk_size,chunk_overlap
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.25,0.043877,chunk_size,200,50
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,0,0.0,0.019396,chunk_size,200,50
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.019863,chunk_size,200,50
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.019389,chunk_size,200,50
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,1.0,0.020034,chunk_size,200,50
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,0.5,0.02056,chunk_size,200,50
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.018682,chunk_size,200,50
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,0,0.0,0.018606,chunk_size,200,50
+Q09,How does a basic RAG system use retrieved information to generate an answer?,0,0.0,0.015805,chunk_size,200,50
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,0.5,0.019631,chunk_size,200,50
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.020723,chunk_size,200,50
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.020432,chunk_size,200,50
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.019498,chunk_size,200,50
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.022862,chunk_size,200,50
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.021516,chunk_size,200,50
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.033197,chunk_size,200,50
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.022537,chunk_size,200,50
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.019987,chunk_size,200,50
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.021895,chunk_size,200,50
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.024067,chunk_size,200,50
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,0.25,0.02416,chunk_size,200,50
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.04026,chunk_size,200,50
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,0,0.0,0.020777,chunk_size,200,50
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.030196,chunk_size,200,50
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.034525,chunk_size,200,50
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,1.0,0.020145,chunk_size,500,50
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.015739,chunk_size,500,50
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.019296,chunk_size,500,50
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.013315,chunk_size,500,50
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,0,0.0,0.017132,chunk_size,500,50
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.019526,chunk_size,500,50
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.019267,chunk_size,500,50
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,0.3333,0.017644,chunk_size,500,50
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.019105,chunk_size,500,50
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.016374,chunk_size,500,50
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.025575,chunk_size,500,50
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.019609,chunk_size,500,50
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.022364,chunk_size,500,50
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.023644,chunk_size,500,50
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.018819,chunk_size,500,50
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,0.5,0.014278,chunk_size,500,50
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.023837,chunk_size,500,50
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.020978,chunk_size,500,50
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,0.5,0.01989,chunk_size,500,50
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.018189,chunk_size,500,50
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,0,0.0,0.022272,chunk_size,500,50
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.019133,chunk_size,500,50
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,0.5,0.018505,chunk_size,500,50
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.018583,chunk_size,500,50
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.020443,chunk_size,500,50
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.5,0.019536,chunk_size,750,50
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,0.5,0.017715,chunk_size,750,50
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.023896,chunk_size,750,50
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.022195,chunk_size,750,50
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,0.5,0.019244,chunk_size,750,50
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.02904,chunk_size,750,50
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.01813,chunk_size,750,50
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,0.3333,0.023133,chunk_size,750,50
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.036038,chunk_size,750,50
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.03963,chunk_size,750,50
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.027045,chunk_size,750,50
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.021488,chunk_size,750,50
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,1.0,0.022111,chunk_size,750,50
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.025649,chunk_size,750,50
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.023232,chunk_size,750,50
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.022084,chunk_size,750,50
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.062301,chunk_size,750,50
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.035148,chunk_size,750,50
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.016447,chunk_size,750,50
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.021943,chunk_size,750,50
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.01936,chunk_size,750,50
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.017546,chunk_size,750,50
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,1.0,0.01724,chunk_size,750,50
+Q24,What can an agent do after retrieving information before producing the final answer?,1,0.5,0.020203,chunk_size,750,50
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.021625,chunk_size,750,50
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.5,0.013191,chunk_size,1000,50
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.018394,chunk_size,1000,50
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.018753,chunk_size,1000,50
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.016713,chunk_size,1000,50
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,0.5,0.016908,chunk_size,1000,50
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.017264,chunk_size,1000,50
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.015648,chunk_size,1000,50
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,0.5,0.015855,chunk_size,1000,50
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.049241,chunk_size,1000,50
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.023191,chunk_size,1000,50
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.015045,chunk_size,1000,50
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.01408,chunk_size,1000,50
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,1.0,0.015745,chunk_size,1000,50
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.018605,chunk_size,1000,50
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.019218,chunk_size,1000,50
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,0.5,0.018703,chunk_size,1000,50
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.023111,chunk_size,1000,50
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.031155,chunk_size,1000,50
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.02359,chunk_size,1000,50
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.020076,chunk_size,1000,50
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,0.25,0.024298,chunk_size,1000,50
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.019285,chunk_size,1000,50
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,1.0,0.022107,chunk_size,1000,50
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.021263,chunk_size,1000,50
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.015234,chunk_size,1000,50
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,1.0,0.016252,chunk_size,1500,50
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.018259,chunk_size,1500,50
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.019382,chunk_size,1500,50
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.017928,chunk_size,1500,50
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,1.0,0.01744,chunk_size,1500,50
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.018052,chunk_size,1500,50
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.014849,chunk_size,1500,50
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,1.0,0.017713,chunk_size,1500,50
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.017444,chunk_size,1500,50
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.018137,chunk_size,1500,50
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.016997,chunk_size,1500,50
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.01484,chunk_size,1500,50
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,0.3333,0.014003,chunk_size,1500,50
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.018151,chunk_size,1500,50
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.014838,chunk_size,1500,50
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,0.5,0.018254,chunk_size,1500,50
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,0.5,0.024047,chunk_size,1500,50
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.018404,chunk_size,1500,50
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.01962,chunk_size,1500,50
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.016749,chunk_size,1500,50
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.017395,chunk_size,1500,50
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.025656,chunk_size,1500,50
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,0.3333,0.023802,chunk_size,1500,50
+Q24,What can an agent do after retrieving information before producing the final answer?,1,0.5,0.017759,chunk_size,1500,50
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.021331,chunk_size,1500,50
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,1.0,0.020783,overlap,750,0
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.021211,overlap,750,0
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.016335,overlap,750,0
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.019099,overlap,750,0
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,1.0,0.018861,overlap,750,0
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.049659,overlap,750,0
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.024752,overlap,750,0
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,0.3333,0.015895,overlap,750,0
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.3333,0.014926,overlap,750,0
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,0.5,0.017481,overlap,750,0
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.017442,overlap,750,0
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.015358,overlap,750,0
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.017514,overlap,750,0
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.015988,overlap,750,0
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.016957,overlap,750,0
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.018822,overlap,750,0
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.022316,overlap,750,0
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.021867,overlap,750,0
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.02079,overlap,750,0
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.02048,overlap,750,0
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.030832,overlap,750,0
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.024485,overlap,750,0
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,0.3333,0.024247,overlap,750,0
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.022447,overlap,750,0
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.025746,overlap,750,0
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.3333,0.014992,overlap,750,50
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,0.3333,0.02142,overlap,750,50
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.01959,overlap,750,50
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.019188,overlap,750,50
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,0.3333,0.01361,overlap,750,50
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.016783,overlap,750,50
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.019882,overlap,750,50
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,0,0.0,0.013501,overlap,750,50
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.3333,0.013929,overlap,750,50
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.015075,overlap,750,50
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.013836,overlap,750,50
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.014774,overlap,750,50
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,1.0,0.013865,overlap,750,50
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.015163,overlap,750,50
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.015143,overlap,750,50
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.015141,overlap,750,50
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.014963,overlap,750,50
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.015542,overlap,750,50
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.015303,overlap,750,50
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.016739,overlap,750,50
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.01536,overlap,750,50
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.013791,overlap,750,50
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,1.0,0.044372,overlap,750,50
+Q24,What can an agent do after retrieving information before producing the final answer?,1,0.3333,0.023349,overlap,750,50
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.01447,overlap,750,50
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,1.0,0.013252,overlap,750,100
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.012276,overlap,750,100
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.014683,overlap,750,100
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.014498,overlap,750,100
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,0.3333,0.013089,overlap,750,100
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.01266,overlap,750,100
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.012909,overlap,750,100
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,1.0,0.011894,overlap,750,100
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.3333,0.01256,overlap,750,100
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.01437,overlap,750,100
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.012632,overlap,750,100
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.011695,overlap,750,100
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.012293,overlap,750,100
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.013063,overlap,750,100
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.013005,overlap,750,100
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.013681,overlap,750,100
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.012899,overlap,750,100
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.014104,overlap,750,100
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.013395,overlap,750,100
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.013128,overlap,750,100
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.013407,overlap,750,100
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.01355,overlap,750,100
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,0,0.0,0.013723,overlap,750,100
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.013544,overlap,750,100
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.012068,overlap,750,100
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.5,0.014658,overlap,750,150
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.0151,overlap,750,150
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.014586,overlap,750,150
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.014447,overlap,750,150
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,0,0.0,0.013665,overlap,750,150
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.014459,overlap,750,150
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.014747,overlap,750,150
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,0,0.0,0.014884,overlap,750,150
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.012772,overlap,750,150
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.013944,overlap,750,150
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.013049,overlap,750,150
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.015416,overlap,750,150
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,1.0,0.012468,overlap,750,150
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.013824,overlap,750,150
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.012477,overlap,750,150
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.012901,overlap,750,150
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.012513,overlap,750,150
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.012449,overlap,750,150
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.013464,overlap,750,150
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.013523,overlap,750,150
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.01477,overlap,750,150
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.014445,overlap,750,150
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,1.0,0.013839,overlap,750,150
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.013702,overlap,750,150
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.016638,overlap,750,150
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.3333,0.016866,overlap,750,200
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.017899,overlap,750,200
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.014374,overlap,750,200
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.014413,overlap,750,200
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,0.25,0.015196,overlap,750,200
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.014991,overlap,750,200
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.014907,overlap,750,200
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,0.3333,0.01927,overlap,750,200
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.019178,overlap,750,200
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.017032,overlap,750,200
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.01854,overlap,750,200
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.019859,overlap,750,200
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.018437,overlap,750,200
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.019649,overlap,750,200
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.016487,overlap,750,200
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.019077,overlap,750,200
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.019947,overlap,750,200
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.019616,overlap,750,200
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.01779,overlap,750,200
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.018259,overlap,750,200
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.020193,overlap,750,200
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.020456,overlap,750,200
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,0.3333,0.024895,overlap,750,200
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.016521,overlap,750,200
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.019089,overlap,750,200
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.3333,0.013115,combined,250,25
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,0.3333,0.013905,combined,250,25
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.015069,combined,250,25
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.013799,combined,250,25
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,1.0,0.013415,combined,250,25
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.012031,combined,250,25
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.012824,combined,250,25
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,0,0.0,0.012953,combined,250,25
+Q09,How does a basic RAG system use retrieved information to generate an answer?,0,0.0,0.012657,combined,250,25
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,0.5,0.013221,combined,250,25
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.012774,combined,250,25
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.013334,combined,250,25
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.011749,combined,250,25
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.012974,combined,250,25
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.012186,combined,250,25
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.012231,combined,250,25
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.012835,combined,250,25
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.013615,combined,250,25
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,0.5,0.013191,combined,250,25
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.01338,combined,250,25
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,0.5,0.012435,combined,250,25
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.014008,combined,250,25
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,0,0.0,0.035273,combined,250,25
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.012927,combined,250,25
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.013379,combined,250,25
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,1.0,0.013035,combined,500,50
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.012094,combined,500,50
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.012305,combined,500,50
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.012257,combined,500,50
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,0,0.0,0.013544,combined,500,50
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.012606,combined,500,50
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.01257,combined,500,50
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,0,0.0,0.011325,combined,500,50
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.3333,0.011433,combined,500,50
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.01198,combined,500,50
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.012479,combined,500,50
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.012231,combined,500,50
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.013757,combined,500,50
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.011663,combined,500,50
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.014388,combined,500,50
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,0.3333,0.012756,combined,500,50
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.014027,combined,500,50
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.014326,combined,500,50
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,0.3333,0.013884,combined,500,50
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.014261,combined,500,50
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,0,0.0,0.014153,combined,500,50
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.013722,combined,500,50
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,0.3333,0.042891,combined,500,50
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.021414,combined,500,50
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.013799,combined,500,50
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,1.0,0.014742,combined,500,100
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.01564,combined,500,100
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.016553,combined,500,100
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.016313,combined,500,100
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,0,0.0,0.016837,combined,500,100
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.01842,combined,500,100
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.02065,combined,500,100
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,0,0.0,0.019257,combined,500,100
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.3333,0.019204,combined,500,100
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.030358,combined,500,100
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.02511,combined,500,100
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.02006,combined,500,100
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.027747,combined,500,100
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.027532,combined,500,100
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.018992,combined,500,100
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.016325,combined,500,100
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.018522,combined,500,100
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.017506,combined,500,100
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,0.5,0.019449,combined,500,100
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.018906,combined,500,100
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,0.3333,0.017746,combined,500,100
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.018615,combined,500,100
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,0.5,0.052364,combined,500,100
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.026779,combined,500,100
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.018178,combined,500,100
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.5,0.016484,combined,750,75
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.01237,combined,750,75
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.011401,combined,750,75
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.012042,combined,750,75
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,0.5,0.012735,combined,750,75
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.013432,combined,750,75
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.013186,combined,750,75
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,0.3333,0.012874,combined,750,75
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.012352,combined,750,75
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.012679,combined,750,75
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.012908,combined,750,75
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.012709,combined,750,75
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,1.0,0.01251,combined,750,75
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.012735,combined,750,75
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.013048,combined,750,75
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,0.5,0.013329,combined,750,75
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.015934,combined,750,75
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.01339,combined,750,75
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.014093,combined,750,75
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.048098,combined,750,75
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.017429,combined,750,75
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.014792,combined,750,75
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,1.0,0.011815,combined,750,75
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.011747,combined,750,75
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.020954,combined,750,75
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.5,0.012584,combined,750,150
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.016053,combined,750,150
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.015667,combined,750,150
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.01712,combined,750,150
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,0,0.0,0.022214,combined,750,150
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.01723,combined,750,150
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.013902,combined,750,150
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,0,0.0,0.01651,combined,750,150
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.3333,0.015675,combined,750,150
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.017444,combined,750,150
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.013073,combined,750,150
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.015449,combined,750,150
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,1.0,0.043612,combined,750,150
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.017153,combined,750,150
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.011117,combined,750,150
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.012792,combined,750,150
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.012126,combined,750,150
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.011777,combined,750,150
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.013189,combined,750,150
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.013596,combined,750,150
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.012856,combined,750,150
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.013375,combined,750,150
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,1.0,0.012197,combined,750,150
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.012274,combined,750,150
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.01332,combined,750,150
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.5,0.012682,combined,1000,100
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.01298,combined,1000,100
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.012755,combined,1000,100
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.012883,combined,1000,100
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,0.5,0.01279,combined,1000,100
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.011602,combined,1000,100
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.013199,combined,1000,100
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,1.0,0.012286,combined,1000,100
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.012424,combined,1000,100
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.014323,combined,1000,100
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.012777,combined,1000,100
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.014468,combined,1000,100
+Q13,What techniques were introduced to improve traditional RAG retrieval?,0,0.0,0.011853,combined,1000,100
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.014177,combined,1000,100
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.011592,combined,1000,100
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,0.5,0.013094,combined,1000,100
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,0.5,0.012616,combined,1000,100
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.013298,combined,1000,100
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.014243,combined,1000,100
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.03131,combined,1000,100
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.015899,combined,1000,100
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.016199,combined,1000,100
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,0.3333,0.014773,combined,1000,100
+Q24,What can an agent do after retrieving information before producing the final answer?,1,0.5,0.013325,combined,1000,100
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.01361,combined,1000,100
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.5,0.013525,combined,1000,200
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.013054,combined,1000,200
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.011724,combined,1000,200
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.013469,combined,1000,200
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,1.0,0.01483,combined,1000,200
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.014689,combined,1000,200
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.013431,combined,1000,200
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,0.3333,0.013322,combined,1000,200
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.014561,combined,1000,200
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.014826,combined,1000,200
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.013665,combined,1000,200
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.012785,combined,1000,200
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,1.0,0.011959,combined,1000,200
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.012093,combined,1000,200
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.012959,combined,1000,200
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.013187,combined,1000,200
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.012155,combined,1000,200
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.028783,combined,1000,200
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.01743,combined,1000,200
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.022413,combined,1000,200
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,0.5,0.014524,combined,1000,200
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.012644,combined,1000,200
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,1.0,0.014654,combined,1000,200
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.01132,combined,1000,200
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.016258,combined,1000,200
+Q01,What was the fundamental approach used by early search systems to retrieve documents?,1,0.5,0.012132,combined,1500,150
+Q02,What ranking methods were mentioned for ranking documents in early keyword-based search systems?,1,1.0,0.011098,combined,1500,150
+Q03,What is the main limitation of traditional keyword-based search according to the video?,0,0.0,0.011716,combined,1500,150
+Q04,Why can keyword-based search struggle when a user uses different words from those contained in a relevant document?,0,0.0,0.012899,combined,1500,150
+Q05,How does semantic search represent text so that systems can retrieve information based on meaning?,1,1.0,0.013018,combined,1500,150
+Q06,Why can semantic search retrieve documents even when the exact words in the query do not appear in the document?,1,1.0,0.013447,combined,1500,150
+Q07,What is the purpose of combining keyword search with semantic search in a hybrid retrieval system?,0,0.0,0.01231,combined,1500,150
+Q08,What limitation of large language models motivated the development of Retrieval Augmented Generation?,1,0.5,0.013528,combined,1500,150
+Q09,How does a basic RAG system use retrieved information to generate an answer?,1,0.5,0.011703,combined,1500,150
+Q10,Why does the video describe RAG as giving an LLM a form of external memory?,1,1.0,0.012751,combined,1500,150
+Q11,What is the basic structure of a traditional RAG pipeline?,1,1.0,0.044765,combined,1500,150
+Q12,What is the main limitation of traditional RAG pipelines?,0,0.0,0.019617,combined,1500,150
+Q13,What techniques were introduced to improve traditional RAG retrieval?,1,0.5,0.010748,combined,1500,150
+Q14,What is the role of a reranker in an improved RAG pipeline?,0,0.0,0.012841,combined,1500,150
+Q15,How does agentic RAG differ from a traditional linear RAG pipeline?,0,0.0,0.013475,combined,1500,150
+Q16,What decisions can an AI agent make during the retrieval process according to the video?,1,1.0,0.013528,combined,1500,150
+Q17,How can agents improve the reliability of information retrieved from different sources?,1,1.0,0.012427,combined,1500,150
+Q18,What additional capabilities can agentic RAG systems support beyond simple retrieval and generation?,1,1.0,0.013065,combined,1500,150
+Q19,"Explain the evolution from keyword search to semantic search, RAG, and finally agentic RAG.",1,1.0,0.013446,combined,1500,150
+Q20,"According to the video, why is deciding what information to look at important for an AI system?",0,0.0,0.013811,combined,1500,150
+Q21,What are the main advantages of semantic search over traditional keyword matching discussed in the video?,1,1.0,0.013869,combined,1500,150
+Q22,"What problems with large language models does RAG address, and how does it address them?",0,0.0,0.014973,combined,1500,150
+Q23,What improvements made traditional RAG more effective while still keeping a relatively fixed retrieval pipeline?,1,0.5,0.014216,combined,1500,150
+Q24,What can an agent do after retrieving information before producing the final answer?,1,1.0,0.013827,combined,1500,150
+Q25,How does retrieval become part of reasoning in agentic RAG rather than remaining a fixed step in a pipeline?,0,0.0,0.016258,combined,1500,150
